@@ -1,0 +1,35 @@
+@media screen and (max-width:400px){
+    .fifth__box{
+        flex-wrap: wrap;
+        
+    }
+    .header__nav0{
+        opacity: 0;
+    }
+    .second__right{
+        flex-wrap: wrap;
+    }
+    .sixth__content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav__line1,
+    .nav__line2{
+        width: 100%;
+    }
+    .second__content{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:980px){
+    
+}

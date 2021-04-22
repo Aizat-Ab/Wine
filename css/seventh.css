@@ -1,0 +1,39 @@
+.seventh{
+    text-align: center;
+    background: #18191A;
+    padding-top: 57px;
+    padding-bottom: 63px;
+}
+.seventh__title{
+    color: #E2B024;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.seventh__subtitle{
+    font-size: 18px;
+    color: white;
+    font-family: "Poppins";
+}
+#search__form{
+    width: 443px;
+    height: 64px;
+    background: black;
+    border: none;
+    outline: none;
+    margin-top: 69px;
+    font-size: 18px;
+    font-family: "Poppins";
+    color: white;
+    padding: 0px 0px 0px 34px;
+}
+.subscribe{
+    font-family: "Poppins";
+    font-size: 18px;
+    color: #1F1F1F;
+    background: #E2B024;
+    border: none;
+    outline: none;
+    padding: 19px 18px 18px 19px;
+    margin-left: -4px;
+}
+

@@ -1,0 +1,245 @@
+.sixth{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.title__contact{
+    font-size: 48px;
+    font-family: "chocolate";
+    color: white;
+    text-align: center;
+    margin-bottom: 95px;
+}
+.sixth__right{
+    font-family: "Poppins";
+}
+.us{
+    color: #E2B024;
+}
+.sixth__text{
+    font-weight: 300;
+    color: white;
+    font-size: 18px;
+    font-family: "Poppins";
+    margin-bottom: 77px;
+    width: 466px;
+}
+.sixth__texticon{
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    padding-left: 29px;
+}
+.sixth__tel,
+.sixth__message,
+.sixth__location{
+    margin-bottom: 40px;
+}
+.google,
+.twitter,
+.in,
+.facebook{
+    margin-right: 56px;
+}
+.last__text{
+    width: 670px;
+    height: 64px;
+    margin-bottom: 29px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    color: white;
+    padding-left:31px;
+    font-size: 24px;
+}
+.last__text0{
+    width: 670px;
+    height: 133px;
+    margin-bottom: 29px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    padding-left:31px;
+    color: white;
+    font-size: 24px;
+}
+.last{
+    font-weight: 500;
+    font-size: 36px;
+    color: #18191A;
+    padding: 10px 54px 10px 54px;
+    background: #E2B024;
+}
+.sixth__left{
+    padding-right: 31px;
+}
+.sixth__logo{
+    margin-top: -39px;
+}
+.google__six{
+ background:transparent;
+ width: 60px;
+ height: 60px;
+ border-radius: 60px;
+ position: relative;
+ padding-left: 10px;
+}
+.google{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    animation: google 0.9s ease-in-out infinite;
+}
+.google__six:hover:before,
+.google__six:hover:after{
+    content: "";
+    position: absolute;
+    border: 1px solid rgb(149, 250, 67);
+    left: -5px;
+    right: -5px;
+    top: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    animation: google__six 1.8s linear infinite;
+}
+.google__six:hover:after{
+    animation-delay: 0.5s;
+}
+@keyframes google__six{
+    0% {
+        transform: scale(2.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+}
+.twitter__six{
+    background:transparent;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    position: relative;
+    padding-left: 10px;
+}
+.twitter{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    animation: twitter 0.9s ease-in-out infinite;
+}
+.twitter__six:hover:before,
+.twitter__six:hover:after{
+    content: "";
+    position: absolute;
+    border: 1px solid rgb(149, 250, 67);
+    left: -5px;
+    right: -5px;
+    top: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    animation: twitter__six 1.8s linear infinite;
+}
+.twitter__six:hover::after{
+    animation-delay: 0.5s;
+}
+@keyframes twitter__six{
+    0% {
+        transform: scale(2.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+}
+.in__six{
+    background:transparent;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    position: relative;
+    padding-left: 10px;
+}
+.in{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    animation: in 0.9s ease-in-out infinite;
+}
+.in__six:hover:before,
+.in__six:hover:after{
+    content: "";
+    position: absolute;
+    border: 1px solid rgb(149, 250, 67);
+    left: -5px;
+    right: -5px;
+    top: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    animation: in__six 1.8s linear infinite;
+}
+.in__six:hover:after{
+    animation-delay: 0.5s;
+}
+@keyframes in__six{
+    0% {
+        transform: scale(2.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.5);
+        opacity: 0;
+       }
+}
+.facebook__six{
+    background:transparent;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    position: relative;
+    padding-left: 10px;
+   }
+.facebook{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    animation: facebook 0.9s ease-in-out infinite;
+}
+.facebook__six:hover:before,
+.facebook__six:hover:after{
+    content: "";
+    position: absolute;
+    border: 1px solid rgb(149, 250, 67);
+    left: -5px;
+    right: -5px;
+    top: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    animation: facebook__six 1.8s linear infinite;
+}
+.facebook__six:hover:after{
+    animation-delay: 0.5s;
+}
+
+@keyframes facebook__six{
+    0% {
+        transform: scale(2.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+       }
+    100% {
+        transform: scale(0.5);
+        opacity: 0;
+}

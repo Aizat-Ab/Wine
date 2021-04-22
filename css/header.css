@@ -1,0 +1,93 @@
+.header{
+    margin-top: 12px;
+}
+.header__up{
+    font-family: "Poppins";
+    align-items: center     ;
+}
+.title__up{
+    font-size: 12px;
+    color: white;
+    margin-right: 292px;
+}
+.header__logo{
+    margin-right:113px;
+}
+.header__nav_up{
+    font-size: 12px;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 45px;
+}
+.header__nav_up:hover{
+    color: #E2B024;
+}
+.header__search{
+    margin-right: 35px;
+}
+.menu__lines{
+    width: 18px;
+    height: 2px;
+    background: white;
+    margin-top: 5px;    
+}
+.logo__shop{
+    margin-right: 35px;
+}
+.header__icons{
+    display: flex;
+    align-items: center;
+}
+.nav__line1{
+    width: 1170px;
+    height: 1px;
+    background: white;
+    margin-top: 13px;
+}
+.header__nav0{
+    justify-content: space-between;
+}
+.header__nav{
+    font-size: 16px;
+    font-family: "chocolate";
+    color: white;
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 22px;
+    padding: 0px;
+    position: relative;
+    cursor: pointer;
+}
+.header__nav::before{
+    transition: 0.3s;
+    content: "";
+    background: #E2B024;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+.header__nav:hover::before{
+    width: 100%;
+}
+.nav__line2{
+    width: 1170px;
+    height: 1px;
+    background: white;
+}
+.logo__shop{
+    transition: 0.5s;
+}
+.menu{
+    transition: 0.5s;
+}
+.logo__shop:hover{
+    transform: scale(1.2);
+}
+.menu:hover{
+    transform: scale(1.2);
+}
+

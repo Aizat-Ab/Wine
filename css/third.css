@@ -1,0 +1,118 @@
+.third{
+    padding-top: 151px;
+    padding-bottom: 167px;
+}
+.third__title{
+    font-size: 48px;
+    color: white;
+    font-family: "chocolate";
+    text-align: center;
+}
+.third__line{
+    width: 417px;
+    height: 1px;
+    background: white;
+    margin: 0 auto;
+    margin-bottom: 191px;
+}
+.third__boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.third__discount{
+    font-size: 14px;
+    padding: 10px 16px 9px 15px;
+    background: #E2B024;
+    color: #000000;
+    font-family: "Poppins";
+}
+.name{
+    font-size: 24px;
+    font-family: "chocolate";
+    color: white;
+    padding-top: 20px;
+}
+.viewmore{
+    color: #E2B024;
+    font-size: 18px;
+    font-family: "chocolate";
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 7px;
+}
+.more{
+    text-decoration: transparent;
+}
+.third__lastline{
+    width: 116px;
+    border: 1px solid #E2B024;
+    margin: 0 auto;
+}
+.little__discount{
+    font-family: "Poppins";
+    font-size: 16px;
+    text-decoration: line-through;
+}
+.price{
+    font-family: "Poppins";
+    font-size: 24px;
+    color: #E2B024;
+}
+.third__box{
+    position: relative;
+    margin-bottom: 97px;
+    padding-bottom: 71px;
+}
+.third__discount{
+    position: absolute;
+    left: -38px;
+}
+.third__nav0{
+    width: 417px;
+    margin: 0 auto;
+    margin-top: 89px;
+    font-family: "Poppins";
+}
+.third__nav{
+    font-size: 24px;
+    color: white;
+    padding: 0;
+    justify-content: space-between;
+    margin-right: 72px;
+    margin-bottom: 2px;
+    position: relative;
+    cursor: pointer;
+}
+.third__nav::before{
+    transition: 0.3s;
+    content: "";
+    background: #E2B024;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+.third__nav:hover::before{
+    width: 100%;
+}
+.third__box{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template: auto 1fr minmax(40px, auto) / 1fr;
+    grid-column: 4/2;
+    width: 250px;
+    height: 364px;
+}
+.wine1{
+    padding-left: 50px;
+    padding-bottom: 11px;
+}
+.wine1{
+    transition: 0.3s;
+}
+.wine1:hover{
+    transform: scale(1.2);
+}
+

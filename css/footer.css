@@ -1,0 +1,58 @@
+.footer__content{
+    justify-content: space-between;
+    padding-top: 133px;
+    padding-bottom: 92px;
+}
+.footer__title{
+    color: #E2B024;
+    font-size: 24px;
+    font-family: "chocolate";
+    padding-bottom: 42px;
+}
+.footer__list{
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins";
+    padding-bottom: 15px;
+}
+.footer__line{
+    width: 1171px;
+    height: 1px;
+    background: white;
+}
+.footer__text{
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Poppins";
+    padding-left: 6.5px;
+}
+.footer__lasttext{
+    justify-content: center;
+    padding-top: 22px;
+    padding-bottom: 44px;
+}
+.footer__texticon{
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Poppins";
+    padding-left: 14.8px;
+}
+.footer__tel,
+.footer__message,
+.footer__location{
+    padding-bottom: 19px;
+}
+.footer__icons{
+    padding-bottom: 25px;
+}
+.footer__google,
+.footer__twitter,
+.footer__in,
+.footer__facebook{
+    padding-right: 44px;
+}
+p {
+    margin: 0;
+}

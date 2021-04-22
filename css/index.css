@@ -1,0 +1,21 @@
+@import "./base.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./second.css";
+@import "./third.css";
+@import "./forth.css";
+@import "./fifth.css";
+@import "./sixth.css";
+@import "./seventh.css";
+@import "./footer.css";
+@import "./media.css";
+
+
+@font-face {
+    src: url(../font/Poppins.ttf);
+    font-family: "Poppins";
+}
+@font-face {
+    src: url(../font/chocolate.TTF);
+    font-family: "chocolate";
+}
